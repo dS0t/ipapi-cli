@@ -1,0 +1,16 @@
+# Build artifacts
+ipa
+*.o
+
+# Python env
+.venv/
+__pycache__/
+
+# Counter file (usually in /tmp anyway, but just in case)
+ipa_counter.json
+
+# Utils & Tests
+a.out
+generate_svg.py
+test_cidr.cpp
+push.sh
